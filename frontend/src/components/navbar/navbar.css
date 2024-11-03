@@ -1,0 +1,37 @@
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 10vw;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+}
+.more{
+    align-self: right;
+}
+
+@media screen and (min-width: 480px) {
+    .navbar{
+        height: 7vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* .navbar{
+        height: 3vw;
+    } */
+}
+@media screen and (min-width: 1024px) {
+    .navbar{
+        height: 3vw;
+    }
+}

@@ -1,0 +1,16 @@
+.title-container{
+    background-color: #f8f8f8;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 1em;
+    color: grey;
+    text-transform: uppercase;    
+}
+.title-container:hover{
+    cursor: pointer;
+}

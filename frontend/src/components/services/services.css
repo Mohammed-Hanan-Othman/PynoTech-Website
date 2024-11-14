@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.container div{
+    color: grey;
+    align-content: center;
+    padding: 10px;
+    transition: all 0.5s linear;
+}
+.container div:hover{
+    cursor: pointer;
+}
+.container .active{
+    background-color: #dad6d6;
+    
+}
+.container .inactive{
+    background-color: rgb(255, 255, 255);
+}
+.icons-container{
+    /* border: 1px solid red; */
+    max-width: 80vw;
+    margin: 30px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 30px;
+}
+.icon-content{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-content:hover {
+    background-color: rgb(230, 229, 229);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.icon{
+    
+}
+.icon-content h5{
+    margin: 10px 7px;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 400;
+    text-align: center;
+}
+.solutions{
+    max-width: 80vw;
+    margin: 30px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .container div{
+        padding: 15px;
+    }
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons-container{
+        flex-direction: row;
+        gap: 0px;
+    }
+    .icon-content{
+        width: 40%;
+    }
+    .solutions{
+        flex-direction: row;
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        font-size: 2em;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .icons-container{
+        width: 70vw;
+    }
+    .icon-content h5{
+        font-size: 1.8em;
+    }
+}

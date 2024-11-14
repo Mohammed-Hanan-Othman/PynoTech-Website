@@ -1,6 +1,6 @@
 .banner{
-    margin-top: 10px;
-    background-color: blue;
+    /* margin-top: 10px; */
+    /* background-color: blue; */
     width: 100vw;
     height: 45vh;
     position: relative;
@@ -44,9 +44,6 @@
     text-align: center;
     color: white;
     z-index: 1;
-}
-.banner-main-text{
-    
 }
 .banner-btn-container{
     /* width: 65%; */

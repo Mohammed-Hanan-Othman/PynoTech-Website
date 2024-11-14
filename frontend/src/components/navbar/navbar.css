@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     width: 100vw;
-    height: 10vw;
+    height: 10vh;
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -14,9 +14,15 @@
     justify-content: space-between;
     align-items: center;
     gap: 10em;
+    z-index: 10;
+    border-bottom: 3px solid white;
+}
+.logo-container{
+    margin-left: 50px;
 }
 .more{
     align-self: right;
+    margin-right: 30px;
 }
 
 @media screen and (min-width: 480px) {

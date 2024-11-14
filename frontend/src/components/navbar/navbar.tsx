@@ -6,8 +6,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {/* Will replace with company logo */}
-      <p>Logo</p>
-      <FaBars className='more'/>
+      <div className='logo-container'>
+        <p style={{fontSize: '1.5em'}}>Logo</p>
+      </div>
+      
+      <FaBars onClick={(e)=>{alert("Button clicked")}} size={30} className='more'/>
     </div>
   )
 }
